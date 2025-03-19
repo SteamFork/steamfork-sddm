@@ -1,28 +1,12 @@
-![Screenshot of the interface of the SteamOS theme for SDDM](previews/Preview.png? "The default interface of the SteamOS Sugar theme for SDDM")
 
-# SDDM SteamOS Theme for HoloISO
+# SDDM SteamOS Theme for SteamFork
 A modified version of [MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM)](https://github.com/MarianArlt/sddm-sugar-dark). 
 
-Created for desktop mode of [HoloISO](https://github.com/theVakhovskeIsTaken/steamfork). Based on the aesthetic of Valve's Steam platform.
+Created for desktop mode of [SteamFork](https://github.com/theVakhovskeIsTaken/steamfork). Based on the aesthetic of Valve's Steam platform.
 
 > [!IMPORTANT]
-> Main branch is for KDE Plamsa 6. KDE Plasma 5 version is being developed on `kde5` branch. 
+> This theme is suitable for Plasma 6.
 
-<br>
-<br>
-
-## Previews
-
-### Default:
-![Screenshot of the interface of the SteamOS theme for SDDM](previews/Preview.png? "The default interface of the SteamOS theme for SDDM")
-### With custom background:
-> [!NOTE]
-> Due to layout of the theme, 1/3 of the left of your image will be hidden. Consider your subject or main focus to the mid-right when choosing your background image.
->
-
-
-![Screenshot of SteamOS theme with custom background 1](previews/Preview1.png? "Interface of the SteamOS theme with custom background 1")
-![Screenshot of SteamOS theme with custom background 2](previews/Preview2.png? "Interface of the SteamOS theme with custom background 2")
 <br>
 <br>
 
@@ -92,6 +76,7 @@ This project contains two bash scripts:
 
 ### Legal Notice
 
+Copyright (C) 2025 [SteamFork](https://github.com/SteamFork).
 Copyright (C) 2018 [Marian Arlt](https://github.com/MarianArlt).  
 
 SteamOS Theme is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
@@ -102,10 +87,3 @@ You should have received a copy of the GNU General Public License along with Sug
 
 This project is not affiliated with Valve Corporation. All imagery associated with Valve and Steam, including logos, fonts, styles, and naming, belong to [Valve, LLC](https://www.valvesoftware.com/en/). 
 
-
-### Motivate a developer
-
-From Marian Arlt: \
-In the past years I have spent quite some hours on open source projects. If you are the type of person who digs attention to detail, know how much work is involved in it and/or simply likes to support makers with a coffee or a beer I would greatly appreciate your donation on my [PayPayl](https://www.paypal.me/marianarlt) account.  
-Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
-Please consider helping developers you think are worth a penny or two, literally.
