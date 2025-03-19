@@ -77,6 +77,7 @@ This project contains two bash scripts:
 ### Legal Notice
 
 Copyright (C) 2025 [SteamFork](https://github.com/SteamFork).
+
 Copyright (C) 2018 [Marian Arlt](https://github.com/MarianArlt).  
 
 SteamOS Theme is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.  
