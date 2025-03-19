@@ -2,7 +2,7 @@
 # SDDM SteamOS Theme for SteamFork
 A modified version of [MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM)](https://github.com/MarianArlt/sddm-sugar-dark). 
 
-Created for desktop mode of [SteamFork](https://github.com/theVakhovskeIsTaken/steamfork). Based on the aesthetic of Valve's Steam platform.
+Maintained as a solution for desktop mode of [SteamFork](https://github.com/steamfork).
 
 > [!IMPORTANT]
 > This theme is suitable for Plasma 6.
