@@ -6,7 +6,7 @@ TARFILE = steamfork-sddm.tar.gz
 
 all: install package
 
-install: clean
+install: 
 	echo "Installing files to $(DESTDIR)..."
 	install -d $(DESTDIR)
 	install -m 644 LICENSE $(DESTDIR)
