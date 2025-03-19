@@ -3,7 +3,7 @@
 # SDDM SteamOS Theme for HoloISO
 A modified version of [MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM)](https://github.com/MarianArlt/sddm-sugar-dark). 
 
-Created for desktop mode of [HoloISO](https://github.com/theVakhovskeIsTaken/holoiso). Based on the aesthetic of Valve's Steam platform.
+Created for desktop mode of [HoloISO](https://github.com/theVakhovskeIsTaken/steamfork). Based on the aesthetic of Valve's Steam platform.
 
 > [!IMPORTANT]
 > Main branch is for KDE Plamsa 6. KDE Plasma 5 version is being developed on `kde5` branch. 
@@ -27,10 +27,10 @@ Created for desktop mode of [HoloISO](https://github.com/theVakhovskeIsTaken/hol
 <br>
 
 ## Table of Contents
-<!-- * [Dependencies](https://github.com/JiayuanWen/holoiso-sddm-steamos-theme#dependencies) -->
-* [Installing the theme](https://github.com/JiayuanWen/holoiso-sddm-steamos-theme#installing-the-theme)
-* [Legal Notice](https://github.com/JiayuanWen/holoiso-sddm-steamos-theme#legal-notice)
-* [Motivate a developer](https://github.com/JiayuanWen/holoiso-sddm-steamos-theme#motivate-a-developer)
+<!-- * [Dependencies](https://github.com/JiayuanWen/steamfork-sddm-steamos-theme#dependencies) -->
+* [Installing the theme](https://github.com/JiayuanWen/steamfork-sddm-steamos-theme#installing-the-theme)
+* [Legal Notice](https://github.com/JiayuanWen/steamfork-sddm-steamos-theme#legal-notice)
+* [Motivate a developer](https://github.com/JiayuanWen/steamfork-sddm-steamos-theme#motivate-a-developer)
 <br>
 
 <!-- ## Dependencies
@@ -42,11 +42,11 @@ Created for desktop mode of [HoloISO](https://github.com/theVakhovskeIsTaken/hol
 
 ## Installing the theme
 
-[Download the tar archive](https://github.com/JiayuanWen/holoiso-sddm-steamos-theme/releases) then extract the contents to the theme directory of SDDM:
+[Download the tar archive](https://github.com/JiayuanWen/steamfork-sddm-steamos-theme/releases) then extract the contents to the theme directory of SDDM:
 ```
-$ sudo tar -xzvf /Path/To/Your/holoiso-sddm-steamos-theme.tar.gz -C /usr/share/sddm/themes
+$ sudo tar -xzvf /Path/To/Your/steamfork-sddm-steamos-theme.tar.gz -C /usr/share/sddm/themes
 ```
-This will extract all the files to a folder called "holoiso-sddm-steamOS" inside of the themes directory of SDDM.  
+This will extract all the files to a folder called "steamfork-sddm-steamOS" inside of the themes directory of SDDM.  
 
 After that, you will have to point SDDM to the new theme by editing its config file with your favorite editor
 ```
@@ -59,7 +59,7 @@ Find following lines (Add if file is empty).
 [Theme]
 Current=
 ```
-Set `Current=` to `Current=holoiso-sddm-steamos`.
+Set `Current=` to `Current=steamfork-sddm-steamos`.
 
 You can take a look at the default config file of SDDM for reference: `/usr/lib/sddm/sddm.conf.d/default.conf`.  
 

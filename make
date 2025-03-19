@@ -10,13 +10,13 @@ echo
 # Create a folder for archiving later
 COMDIR=""
 echo -ne "Checking & cleaning remaining folders from previous compilation... \r"
-if [ -d ./holoiso-sddm-steamOS ]; then
-	rm -r ./holoiso-sddm-steamOS
+if [ -d ./steamfork-sddm-steamOS ]; then
+	rm -r ./steamfork-sddm-steamOS
 fi
 echo -e "Checking & cleaning remaining folders from previous compilation... Done"
 echo -ne "Creating folder for compress... \r"
-mkdir ./holoiso-sddm-steamOS;
-COMDIR="./holoiso-sddm-steamOS"
+mkdir ./steamfork-sddm-steamOS;
+COMDIR="./steamfork-sddm-steamOS"
 echo  -e "Creating folder for compress... Done"
 
 echo -ne "Copying LICENSE... \r"
@@ -67,18 +67,18 @@ echo -e "Copying Components folder... Done"
 # Write folder to archive
 if type tar > /dev/null; then
     echo -ne "Write sddm theme to archive... \r"
-    tar -cvzf holoiso-sddm-steamOS.tar.gz ./holoiso-sddm-steamOS
+    tar -cvzf steamfork-sddm-steamOS.tar.gz ./steamfork-sddm-steamOS
     echo -e "Write sddm theme to archive... Done"
 else
     echo
     echo -e "${RED}'Tar' not installed. Refer to https://www.tecmint.com/install-zip-and-unzip-in-linux/ to install said tool for your distro.${RESETFONT}"
     echo
-    rm -rf ./holoiso-sddm-steamOS
+    rm -rf ./steamfork-sddm-steamOS
     exit 1
 fi
 
 # Post-script clean up
-rm -rf ./holoiso-sddm-steamOS
+rm -rf ./steamfork-sddm-steamOS
 echo
 echo -e "${GREEN}SDDM theme archived without error. An tar file has been created in repo's root directory.${RESETFONT}"
 echo
