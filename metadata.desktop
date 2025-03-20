@@ -1,17 +1,17 @@
 [SddmGreeterTheme]
 Name=SteamFork SDDM SteamOS Theme
 Description=SteamOS themed SDDM for SteamFork.
-Author=Marian Arlt, Jiayuan "Weldon" Wen, Valve LLC (Logo)
+Author=Marian Arlt, Jiayuan "Weldon" Wen, SteamFork (Logo)
 Copyright=Copyright (C) 2018 Marian Arlt
 License=GPL-3.0-or-later
 Type=sddm-theme
 Version=1.2
-Website=https://github.com/JiayuanWen/steamfork-sddm-steamos-theme
+Website=https://github.com/SteamFork/steamfork-sddm
 Screenshot=previews/Preview.png
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=wylfredwen@proton.me, marianarlt@icloud.com
-Theme-Id=steamfork-sddm-steamos
+Email=fewtarius@steamfork.org, wylfredwen@proton.me, marianarlt@icloud.com
+Theme-Id=steamfork-sddm
 Theme-API=2.11
 QtVersion=6
